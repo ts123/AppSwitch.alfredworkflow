@@ -7,12 +7,18 @@ Switch to other running applications via Alfred2
 
 [get the latest version](https://github.com/ts123/AppSwitch.alfredworkflow/releases/latest)
 
-Screenshots
+Usage
 ------------
+
+1) type comma to display a list of running applications ordered by last use.
 
 ![AppSwitch1.png](screenshots/AppSwitch1.png)
 
+2) you can continue typing application name to narrow candidates.
+
 ![AppSwitch2.png](screenshots/AppSwitch2.png)
+
+3) select (and enter) a list item to activate the application.
 
 Dependencies
 ------------
