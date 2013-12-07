@@ -18,7 +18,7 @@ Usage
 
 ![AppSwitch2.png](screenshots/AppSwitch2.png)
 
-3) select (and enter) a list item to activate the application.
+3) when you enter a list item, the selected application will be activated.
 
 Dependencies
 ------------
