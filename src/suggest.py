@@ -16,7 +16,7 @@ def main(query):
             title = bundle_name.decode('utf-8'), subtitle = bundle_id, 
             icon = [bundle_path, {'type':'fileicon'}]
             ))
-    alfred.write(alfred.xml(suggested_items))
+    alfred.write(alfred.xml(suggested_items, 30))
 
 def uid_generator():
     import time
