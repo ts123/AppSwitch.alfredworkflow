@@ -1,9 +1,7 @@
-AppSwitch.alfredworkflow
+AppSwitch.alfredworkflow [![Build Status](https://travis-ci.org/ts123/AppSwitch.alfredworkflow.png?branch=master)](https://travis-ci.org/ts123/AppSwitch.alfredworkflow)
 =========================
 
 Switch to other running applications via Alfred2
-
-[![Build Status](https://travis-ci.org/ts123/AppSwitch.alfredworkflow.png?branch=master)](https://travis-ci.org/ts123/AppSwitch.alfredworkflow)
 
 [get the latest version](https://github.com/ts123/AppSwitch.alfredworkflow/releases/latest)
 
