@@ -14,7 +14,7 @@ Usage
 
 ![AppSwitch1.png](screenshots/AppSwitch1.png)
 
-2) you can continue typing application name to narrow candidates.
+2) you can continue typing application name (or bundle id) to narrow candidates.
 
 ![AppSwitch2.png](screenshots/AppSwitch2.png)
 
