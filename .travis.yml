@@ -1,0 +1,7 @@
+language: objective-c
+script: make
+env:
+  global:
+    secure: OAN91VPVsxOJqzoHBll1lq8RgMdSeiRjKOVqfMH1tm5yNWrVOPjj6RCYFD9MlmYV6Moo2IJX914R8OgFIeiCVtB+fK3SEU3P/b+lg5xKWpEmednMv3CDe+OmWjk6G5st311y+loKujP/ky26VO6xsLKoDz/cGCy46Am+IEtKlLw=
+after_success:
+    ./scripts/after_success.sh
