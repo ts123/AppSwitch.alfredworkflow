@@ -2,6 +2,6 @@ language: objective-c
 script: make
 env:
   global:
-    secure: OAN91VPVsxOJqzoHBll1lq8RgMdSeiRjKOVqfMH1tm5yNWrVOPjj6RCYFD9MlmYV6Moo2IJX914R8OgFIeiCVtB+fK3SEU3P/b+lg5xKWpEmednMv3CDe+OmWjk6G5st311y+loKujP/ky26VO6xsLKoDz/cGCy46Am+IEtKlLw=
+    secure: "gZGSfT3DEWV75k1y9sPGY/W8UUWfL9r+Mves1Qn5vxP0rlrpn2H94Og127GmrFeUG02cVOK1O91HhKYkkxY1A5I8l8ikymVj8/pfoOdYzj1VvTtG/2LT+1E2dcE07dX7vniOJZlZU3v2oJ0V8mhzBdLO/xQrKIeL45qf6dcLLg0="
 after_success:
     ./scripts/after_success.sh
