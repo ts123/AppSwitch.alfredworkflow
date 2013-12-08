@@ -60,7 +60,7 @@ fi
 # create github release
 echo create release
 rm -f data.json
-printf '{"tag_name":"%s", "target_commitish":"%s", "draft":"true"}' "${TAG_NAME}" "${TRAVIS_COMMIT}" > data.json
+printf '{"tag_name":"%s", "target_commitish":"%s"}' "${TAG_NAME}" "${TRAVIS_COMMIT}" > data.json
 curl -H "Authorization: token ${TOKEN}" \
      -H "Accept: application/vnd.github.manifold-preview" \
      -X POST \

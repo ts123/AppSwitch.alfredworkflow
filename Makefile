@@ -8,7 +8,6 @@ subdirs := src
 all: $(subdirs)
 	mkdir -p bin
 	zip -j9 bin/$(TARGET) src/*.{plist,png,py} \
-		src/activate_by_pid/build/Release/activate_by_pid \
 		src/list_running_apps/build/Release/list_running_apps
 
 clean: $(subdirs)

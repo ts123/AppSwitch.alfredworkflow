@@ -19,7 +19,7 @@ def main(query):
         if not query in bundle_id.lower() and not query in bundle_name:
             continue
         suggested_items.append(alfred.Item(
-            attributes = { 'uid': uid.next(), 'arg': pid },
+            attributes = { 'uid': uid.next(), 'arg': bundle_id },
             title = bundle_name.decode('utf-8'), subtitle = bundle_id, 
             icon = [bundle_path, {'type':'fileicon'}]
             ))
