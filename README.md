@@ -8,7 +8,7 @@ Switch to other running applications via Alfred2
 Usage
 ------------
 
-1) type comma to display a list of running applications ordered by last use.
+1) type comma "," to display a list of running applications ordered by last use. (the current application is last)
 
 ![AppSwitch1.png](screenshots/AppSwitch1.png)
 

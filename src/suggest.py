@@ -1,14 +1,21 @@
 #!/usr/bin/python
 import sys
+import os
 import subprocess
 
 import alfred
 
+
 def main(query):
-    out, err = subprocess.Popen(['./list_running_apps'], stdout=subprocess.PIPE).communicate()
+    LIST_RUNNING_APPS='./list_running_apps'
+    if os.path.isdir(LIST_RUNNING_APPS):
+        LIST_RUNNING_APPS='./list_running_apps/build/Release/list_running_apps'
+    out, err = subprocess.Popen([LIST_RUNNING_APPS], stdout=subprocess.PIPE).communicate()
+    lines = out.splitlines()
+    lines.append(lines.pop(0))
     suggested_items = []
     uid = uid_generator()
-    for i, bundle_name, bundle_id, pid, bundle_path in [_.split(',') for _ in out.splitlines()]:
+    for i, bundle_name, bundle_id, pid, bundle_path in [_.split(',') for _ in lines]:
         if not query in bundle_id.lower() and not query in bundle_name:
             continue
         suggested_items.append(alfred.Item(
